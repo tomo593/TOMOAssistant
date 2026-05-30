@@ -45,7 +45,7 @@
     +-- ConversationController     会话历史
     +-- SettingsController         LLM 模式切换 (在线/本地)
     |
-    +-- LlmModelHolder             LLM 模型管理 (智谱 API / Ollama 双模式)
+    +-- LlmModelHolder             LLM 模型管理 (openai 支持 API / Ollama 双模式)
     +-- StreamingChatService       RAG 编排 + 流式输出
     +-- DocumentService            文档解析 -> 切片 -> 向量化 -> 存储
     +-- RetrievalService           向量检索 + 重排序
